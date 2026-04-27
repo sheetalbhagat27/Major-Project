@@ -9,7 +9,7 @@ import axios from 'axios';
 const AuthContext = createContext();
 
 // Base URL for API calls
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://major-project-1-sk4v.onrender.com/api';
 
 // Set axios header immediately on load if token exists in localStorage
 const savedToken = localStorage.getItem('token');
